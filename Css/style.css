@@ -176,10 +176,37 @@ main section {
     font-weight: 700;
 
 }
-.Resume-container hr{
+
+.Resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/*Footer section*/
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 50px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contract input[type="text"], .contract input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 20px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
